@@ -1,0 +1,5 @@
+Hello, world!!!
+Привет, мир!!!
+Test message.
+Прощай, сентябрь.
+Monday is a hard day.

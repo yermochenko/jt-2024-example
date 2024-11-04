@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+		                     https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+		 version="6.0"
+		 metadata-complete="true">
+
+	<display-name>Пример для дисциплины JТ (ПИ(ВПКД), 7 сем)</display-name>
+
+	<request-character-encoding>UTF-8</request-character-encoding>
+
+	<servlet>
+		<servlet-name>MainController</servlet-name>
+		<servlet-class>by.vsu.jt_example.controller.MainController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MainController</servlet-name>
+		<url-pattern>/index.html</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
